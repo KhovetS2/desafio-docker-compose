@@ -1,0 +1,11 @@
+
+DEBUG = True
+
+
+#SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://fatec:fatec@35.174.216.24:3306/api'
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:db-78n9n@db:3306/api'
+FLASK_HOST="0.0.0.0"
+FLASK_RUN_PORT=8000
+
+SECRET_KEY = "SECRET"
+SQLALCHEMY_TRACK_MODIFICATIONS = False
